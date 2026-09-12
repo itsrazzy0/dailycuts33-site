@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dailycuts33 Terms of Service</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F7F8FA; --surface:#FFFFFF; --text:#1B1F27; --text-muted:#5B6472;
+    --border:#E3E6EC; --accent:#3454D1; --accent-soft:#EEF1FC;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0F1115; --surface:#171A21; --text:#E7E9ED; --text-muted:#9AA3B2;
+      --border:#262B35; --accent:#6C8CFF; --accent-soft:#1B2233;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0F1115; --surface:#171A21; --text:#E7E9ED; --text-muted:#9AA3B2;
+    --border:#262B35; --accent:#6C8CFF; --accent-soft:#1B2233;
+  }
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg); color:var(--text); margin:0;
+    font-family:"IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height:1.65; font-size:16px;
+    display:flex; justify-content:center;
+    padding:64px 24px 96px;
+  }
+  main{max-width:680px; width:100%;}
+  .doc-header{
+    border-bottom:1px solid var(--border);
+    padding-bottom:28px; margin-bottom:40px;
+  }
+  .eyebrow{
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:12.5px; letter-spacing:0.08em; text-transform:uppercase;
+    color:var(--accent); margin:0 0 10px;
+  }
+  .eyebrow a{color:inherit;}
+  h1{
+    font-family:"Fraunces", Georgia, serif;
+    font-weight:600; font-optical-sizing:auto;
+    font-size:clamp(28px, 5vw, 38px); line-height:1.15;
+    margin:0 0 12px; text-wrap:balance;
+  }
+  .meta{
+    display:flex; flex-wrap:wrap; gap:8px 20px;
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:13px; color:var(--text-muted);
+  }
+  .meta span b{color:var(--text); font-weight:500;}
+  .intro{
+    font-size:16.5px; color:var(--text-muted);
+    margin:0 0 44px; max-width:58ch;
+  }
+  section{margin-bottom:34px;}
+  section:last-of-type{margin-bottom:0;}
+  .sec-head{display:flex; align-items:baseline; gap:12px; margin:0 0 10px;}
+  .sec-num{
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:13px; color:var(--accent);
+    background:var(--accent-soft);
+    border-radius:4px; padding:2px 7px;
+    flex:none;
+  }
+  h2{font-family:"Fraunces", Georgia, serif; font-weight:500; font-size:20px; margin:0;}
+  section p, section li{color:var(--text); font-size:15.5px; max-width:64ch;}
+  section p{margin:0 0 12px;}
+  section ul{margin:0 0 12px; padding-left:22px;}
+  section li{margin-bottom:6px;}
+  section p:last-child, section ul:last-child{margin-bottom:0;}
+  code{
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:0.9em; background:var(--accent-soft); color:var(--accent);
+    padding:1px 5px; border-radius:3px;
+  }
+  .card{
+    background:var(--surface); border:1px solid var(--border);
+    border-radius:10px; padding:20px 22px; margin-top:14px;
+  }
+  .card dl{display:grid; grid-template-columns:auto 1fr; gap:6px 16px; margin:0;}
+  .card dt{font-family:"IBM Plex Mono", ui-monospace, monospace; font-size:13px; color:var(--text-muted);}
+  .card dd{margin:0; font-size:14.5px;}
+  .card dd a{color:var(--accent);}
+  footer{
+    margin-top:56px; padding-top:24px; border-top:1px solid var(--border);
+    font-size:13px; color:var(--text-muted);
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="doc-header">
+    <p class="eyebrow"><a href="index.html">dailycuts33 automation</a> · Legal</p>
+    <h1>Terms of Service</h1>
+    <div class="meta">
+      <span>Effective <b>September 12, 2026</b></span>
+      <span>Operator <b>Rafael Neufeld</b></span>
+      <span>Contact <b>itsrazzy0@gmail.com</b></span>
+    </div>
+  </div>
+
+  <p class="intro">
+    These terms cover the <b>dailycuts33 automation</b> system: a single-operator
+    tool that clips long-form video into short vertical clips and publishes them
+    to the TikTok and Instagram accounts of <code>@dailycuts33</code>, using the
+    official TikTok Content Posting API and Meta Graph API.
+  </p>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">01</span><h2>What this is</h2></div>
+    <p>
+      This software is operated by one person, for one set of accounts that
+      person owns and controls. It is not a public service, is not offered to
+      other creators, and does not accept content, sign-ups, or payments from
+      anyone else.
+    </p>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">02</span><h2>What it does</h2></div>
+    <ul>
+      <li>Splits source video into short clips using local transcription and a local language model.</li>
+      <li>Renders each clip with burned-in captions, background music, and a vertical crop.</li>
+      <li>Publishes finished clips to <code>@dailycuts33</code> on TikTok and Instagram on a fixed daily schedule.</li>
+    </ul>
+    <p>All processing runs on the operator's own machine. No clip is published without the pipeline having been configured by the operator in advance.</p>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">03</span><h2>Platform terms</h2></div>
+    <p>
+      Publishing is bound by the TikTok Developer Terms of Service and the
+      Meta Platform Terms in addition to these terms. If any conflict arises,
+      the platform's own terms take precedence for use of that platform's API.
+    </p>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">04</span><h2>No warranty</h2></div>
+    <p>
+      The software is provided as-is. The operator makes no guarantee that a
+      given clip, schedule, or publish will succeed, and is not liable for
+      posting delays, failures, or platform-side moderation decisions.
+    </p>
+  </section>
+
+  <section>
+    <div class="sec-head"><span class="sec-num">05</span><h2>Changes</h2></div>
+    <p>
+      These terms may change as the tool changes. The effective date above
+      reflects the most recent revision.
+    </p>
+  </section>
+
+  <div class="card">
+    <dl>
+      <dt>Contact</dt><dd><a href="mailto:itsrazzy0@gmail.com">itsrazzy0@gmail.com</a></dd>
+      <dt>Account</dt><dd><a href="https://www.tiktok.com/@dailycuts33">tiktok.com/@dailycuts33</a></dd>
+      <dt>Related</dt><dd><a href="privacy.html">Privacy Policy</a></dd>
+    </dl>
+  </div>
+
+  <footer>dailycuts33 automation — internal tooling, documented for platform API review.</footer>
+</main>
+</body>
+</html>
