@@ -1,442 +1,442 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//viral-clipper//whop-schedule//DE
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:Whop Einreichungen (TJR)
-X-WR-TIMEZONE:Europe/Berlin
-REFRESH-INTERVAL;VALUE=DURATION:PT30M
-BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VEVENT
-UID:whop-375969272@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20260917T120000
-DTEND;TZID=Europe/Berlin:20260917T123000
-SUMMARY:Whop einreichen: The Spurs Miraculous Win
-DESCRIPTION:The Spurs Miraculous Win geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969289@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20260917T160000
-DTEND;TZID=Europe/Berlin:20260917T163000
-SUMMARY:Whop einreichen: Unbelievable Missed Shot
-DESCRIPTION:Unbelievable Missed Shot geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375974305@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20260917T200000
-DTEND;TZID=Europe/Berlin:20260917T203000
-SUMMARY:Whop einreichen: Jelly Cat Mystery
-DESCRIPTION:Jelly Cat Mystery geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969366@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20260918T160000
-DTEND;TZID=Europe/Berlin:20260918T163000
-SUMMARY:Whop einreichen: The Scarecrows Challenge
-DESCRIPTION:The Scarecrows Challenge geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969383@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20260919T160000
-DTEND;TZID=Europe/Berlin:20260919T163000
-SUMMARY:Whop einreichen: Crazy Dream Reveal
-DESCRIPTION:Crazy Dream Reveal geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969400@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20260920T160000
-DTEND;TZID=Europe/Berlin:20260920T163000
-SUMMARY:Whop einreichen: Netflix Discovery
-DESCRIPTION:Netflix Discovery geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969411@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20260921T160000
-DTEND;TZID=Europe/Berlin:20260921T163000
-SUMMARY:Whop einreichen: Shorting Nasdaq
-DESCRIPTION:Shorting Nasdaq geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969425@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20260922T160000
-DTEND;TZID=Europe/Berlin:20260922T163000
-SUMMARY:Whop einreichen: Fucking Commercial Airline
-DESCRIPTION:Fucking Commercial Airline geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969447@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20260923T160000
-DTEND;TZID=Europe/Berlin:20260923T163000
-SUMMARY:Whop einreichen: Prodigy Ill Put You In Every Video
-DESCRIPTION:Prodigy Ill Put You In Every Video geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969466@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20260924T160000
-DTEND;TZID=Europe/Berlin:20260924T163000
-SUMMARY:Whop einreichen: Boat Day With Best Friends
-DESCRIPTION:Boat Day With Best Friends geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969483@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20260925T160000
-DTEND;TZID=Europe/Berlin:20260925T163000
-SUMMARY:Whop einreichen: Europe Trip Planning
-DESCRIPTION:Europe Trip Planning geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969495@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20260926T160000
-DTEND;TZID=Europe/Berlin:20260926T163000
-SUMMARY:Whop einreichen: Post Tjr Island Celebration
-DESCRIPTION:Post Tjr Island Celebration geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969506@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20260927T160000
-DTEND;TZID=Europe/Berlin:20260927T163000
-SUMMARY:Whop einreichen: Family Vs Freedom
-DESCRIPTION:Family Vs Freedom geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969515@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20260928T160000
-DTEND;TZID=Europe/Berlin:20260928T163000
-SUMMARY:Whop einreichen: Family Responsibilities
-DESCRIPTION:Family Responsibilities geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969528@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20260929T160000
-DTEND;TZID=Europe/Berlin:20260929T163000
-SUMMARY:Whop einreichen: Embracing Losses
-DESCRIPTION:Embracing Losses geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969561@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20260930T160000
-DTEND;TZID=Europe/Berlin:20260930T163000
-SUMMARY:Whop einreichen: Finding Your Probability
-DESCRIPTION:Finding Your Probability geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969575@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20261001T160000
-DTEND;TZID=Europe/Berlin:20261001T163000
-SUMMARY:Whop einreichen: No 100 Win Rate Guarantee
-DESCRIPTION:No 100 Win Rate Guarantee geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969586@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20261002T160000
-DTEND;TZID=Europe/Berlin:20261002T163000
-SUMMARY:Whop einreichen: Accepting Risk
-DESCRIPTION:Accepting Risk geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969597@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20261003T160000
-DTEND;TZID=Europe/Berlin:20261003T163000
-SUMMARY:Whop einreichen: Consistency Through Probability
-DESCRIPTION:Consistency Through Probability geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969607@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20261004T160000
-DTEND;TZID=Europe/Berlin:20261004T163000
-SUMMARY:Whop einreichen: Why Slow Rolling Doesnt Work
-DESCRIPTION:Why Slow Rolling Doesnt Work geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969617@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20261005T160000
-DTEND;TZID=Europe/Berlin:20261005T163000
-SUMMARY:Whop einreichen: Lucid Pro Account Strategy
-DESCRIPTION:Lucid Pro Account Strategy geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969629@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20261006T160000
-DTEND;TZID=Europe/Berlin:20261006T163000
-SUMMARY:Whop einreichen: Alpha Futures Advanced Account
-DESCRIPTION:Alpha Futures Advanced Account geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969644@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20261007T160000
-DTEND;TZID=Europe/Berlin:20261007T163000
-SUMMARY:Whop einreichen: Sobering Up After Long Abstinence
-DESCRIPTION:Sobering Up After Long Abstinence geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969658@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20261008T160000
-DTEND;TZID=Europe/Berlin:20261008T163000
-SUMMARY:Whop einreichen: Naldos Missed Goal
-DESCRIPTION:Naldos Missed Goal geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969666@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20261009T160000
-DTEND;TZID=Europe/Berlin:20261009T163000
-SUMMARY:Whop einreichen: Profitable Trade In Paradise
-DESCRIPTION:Profitable Trade In Paradise geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969673@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20261010T160000
-DTEND;TZID=Europe/Berlin:20261010T163000
-SUMMARY:Whop einreichen: Unboxing And Reflecting On Purchases
-DESCRIPTION:Unboxing And Reflecting On Purchases geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-375969681@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20261011T160000
-DTEND;TZID=Europe/Berlin:20261011T163000
-SUMMARY:Whop einreichen: End Of Vacation And Return To Work
-DESCRIPTION:End Of Vacation And Return To Work geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-376723130@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20261012T160000
-DTEND;TZID=Europe/Berlin:20261012T163000
-SUMMARY:Whop einreichen: Networking Success Story
-DESCRIPTION:Networking Success Story geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-376723174@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20261013T160000
-DTEND;TZID=Europe/Berlin:20261013T163000
-SUMMARY:Whop einreichen: Watch Shopping Strategy
-DESCRIPTION:Watch Shopping Strategy geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-376723239@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20261014T160000
-DTEND;TZID=Europe/Berlin:20261014T163000
-SUMMARY:Whop einreichen: Luxury Shopping And Travel
-DESCRIPTION:Luxury Shopping And Travel geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-376724535@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20261015T160000
-DTEND;TZID=Europe/Berlin:20261015T163000
-SUMMARY:Whop einreichen: Time Is Precious
-DESCRIPTION:Time Is Precious geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:whop-376724570@viral-clipper
-DTSTAMP:20260917T190120Z
-DTSTART;TZID=Europe/Berlin:20261016T160000
-DTEND;TZID=Europe/Berlin:20261016T163000
-SUMMARY:Whop einreichen: Risk Management
-DESCRIPTION:Risk Management geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Jetzt bei Whop einreichen!
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//viral-clipper//whop-schedule//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Whop Einreichungen (TJR)
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT30M
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:whop-375969272@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20260917T120000
+DTEND;TZID=Europe/Berlin:20260917T123000
+SUMMARY:Whop einreichen: The Spurs Miraculous Win
+DESCRIPTION:The Spurs Miraculous Win geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969289@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20260917T160000
+DTEND;TZID=Europe/Berlin:20260917T163000
+SUMMARY:Whop einreichen: Unbelievable Missed Shot
+DESCRIPTION:Unbelievable Missed Shot geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375974305@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20260917T200000
+DTEND;TZID=Europe/Berlin:20260917T203000
+SUMMARY:Whop einreichen: Jelly Cat Mystery
+DESCRIPTION:Jelly Cat Mystery geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969366@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20260918T160000
+DTEND;TZID=Europe/Berlin:20260918T163000
+SUMMARY:Whop einreichen: The Scarecrows Challenge
+DESCRIPTION:The Scarecrows Challenge geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969383@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20260919T160000
+DTEND;TZID=Europe/Berlin:20260919T163000
+SUMMARY:Whop einreichen: Crazy Dream Reveal
+DESCRIPTION:Crazy Dream Reveal geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969400@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20260920T160000
+DTEND;TZID=Europe/Berlin:20260920T163000
+SUMMARY:Whop einreichen: Netflix Discovery
+DESCRIPTION:Netflix Discovery geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969411@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20260921T160000
+DTEND;TZID=Europe/Berlin:20260921T163000
+SUMMARY:Whop einreichen: Shorting Nasdaq
+DESCRIPTION:Shorting Nasdaq geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969425@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20260922T160000
+DTEND;TZID=Europe/Berlin:20260922T163000
+SUMMARY:Whop einreichen: Fucking Commercial Airline
+DESCRIPTION:Fucking Commercial Airline geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969447@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20260923T160000
+DTEND;TZID=Europe/Berlin:20260923T163000
+SUMMARY:Whop einreichen: Prodigy Ill Put You In Every Video
+DESCRIPTION:Prodigy Ill Put You In Every Video geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969466@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20260924T160000
+DTEND;TZID=Europe/Berlin:20260924T163000
+SUMMARY:Whop einreichen: Boat Day With Best Friends
+DESCRIPTION:Boat Day With Best Friends geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969483@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20260925T160000
+DTEND;TZID=Europe/Berlin:20260925T163000
+SUMMARY:Whop einreichen: Europe Trip Planning
+DESCRIPTION:Europe Trip Planning geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969495@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20260926T160000
+DTEND;TZID=Europe/Berlin:20260926T163000
+SUMMARY:Whop einreichen: Post Tjr Island Celebration
+DESCRIPTION:Post Tjr Island Celebration geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969506@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20260927T160000
+DTEND;TZID=Europe/Berlin:20260927T163000
+SUMMARY:Whop einreichen: Family Vs Freedom
+DESCRIPTION:Family Vs Freedom geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969515@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20260928T160000
+DTEND;TZID=Europe/Berlin:20260928T163000
+SUMMARY:Whop einreichen: Family Responsibilities
+DESCRIPTION:Family Responsibilities geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969528@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20260929T160000
+DTEND;TZID=Europe/Berlin:20260929T163000
+SUMMARY:Whop einreichen: Embracing Losses
+DESCRIPTION:Embracing Losses geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969561@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20260930T160000
+DTEND;TZID=Europe/Berlin:20260930T163000
+SUMMARY:Whop einreichen: Finding Your Probability
+DESCRIPTION:Finding Your Probability geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969575@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20261001T160000
+DTEND;TZID=Europe/Berlin:20261001T163000
+SUMMARY:Whop einreichen: No 100 Win Rate Guarantee
+DESCRIPTION:No 100 Win Rate Guarantee geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969586@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20261002T160000
+DTEND;TZID=Europe/Berlin:20261002T163000
+SUMMARY:Whop einreichen: Accepting Risk
+DESCRIPTION:Accepting Risk geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969597@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20261003T160000
+DTEND;TZID=Europe/Berlin:20261003T163000
+SUMMARY:Whop einreichen: Consistency Through Probability
+DESCRIPTION:Consistency Through Probability geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969607@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20261004T160000
+DTEND;TZID=Europe/Berlin:20261004T163000
+SUMMARY:Whop einreichen: Why Slow Rolling Doesnt Work
+DESCRIPTION:Why Slow Rolling Doesnt Work geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969617@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20261005T160000
+DTEND;TZID=Europe/Berlin:20261005T163000
+SUMMARY:Whop einreichen: Lucid Pro Account Strategy
+DESCRIPTION:Lucid Pro Account Strategy geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969629@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20261006T160000
+DTEND;TZID=Europe/Berlin:20261006T163000
+SUMMARY:Whop einreichen: Alpha Futures Advanced Account
+DESCRIPTION:Alpha Futures Advanced Account geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969644@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20261007T160000
+DTEND;TZID=Europe/Berlin:20261007T163000
+SUMMARY:Whop einreichen: Sobering Up After Long Abstinence
+DESCRIPTION:Sobering Up After Long Abstinence geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969658@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20261008T160000
+DTEND;TZID=Europe/Berlin:20261008T163000
+SUMMARY:Whop einreichen: Naldos Missed Goal
+DESCRIPTION:Naldos Missed Goal geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969666@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20261009T160000
+DTEND;TZID=Europe/Berlin:20261009T163000
+SUMMARY:Whop einreichen: Profitable Trade In Paradise
+DESCRIPTION:Profitable Trade In Paradise geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969673@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20261010T160000
+DTEND;TZID=Europe/Berlin:20261010T163000
+SUMMARY:Whop einreichen: Unboxing And Reflecting On Purchases
+DESCRIPTION:Unboxing And Reflecting On Purchases geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-375969681@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20261011T160000
+DTEND;TZID=Europe/Berlin:20261011T163000
+SUMMARY:Whop einreichen: End Of Vacation And Return To Work
+DESCRIPTION:End Of Vacation And Return To Work geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-376723130@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20261012T160000
+DTEND;TZID=Europe/Berlin:20261012T163000
+SUMMARY:Whop einreichen: Networking Success Story
+DESCRIPTION:Networking Success Story geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-376723174@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20261013T160000
+DTEND;TZID=Europe/Berlin:20261013T163000
+SUMMARY:Whop einreichen: Watch Shopping Strategy
+DESCRIPTION:Watch Shopping Strategy geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-376723239@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20261014T160000
+DTEND;TZID=Europe/Berlin:20261014T163000
+SUMMARY:Whop einreichen: Luxury Shopping And Travel
+DESCRIPTION:Luxury Shopping And Travel geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-376724535@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20261015T160000
+DTEND;TZID=Europe/Berlin:20261015T163000
+SUMMARY:Whop einreichen: Time Is Precious
+DESCRIPTION:Time Is Precious geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:whop-376724570@viral-clipper
+DTSTAMP:20260917T190158Z
+DTSTART;TZID=Europe/Berlin:20261016T160000
+DTEND;TZID=Europe/Berlin:20261016T163000
+SUMMARY:Whop einreichen: Risk Management
+DESCRIPTION:Risk Management geht jetzt live. Innerhalb von 30 Minuten bei Whop einreichen: https://whop.com/reachclipping/exp_6DJh0DkDMhATvG/app/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jetzt bei Whop einreichen!
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
