@@ -147,7 +147,7 @@
         </thead>
         <tbody>
           <tr><td>Source video files</td><td>Clipping, captioning, publishing</td><td>Operator's local machine only</td></tr>
-          <tr><td>TikTok / Meta access tokens</td><td>Authenticate publish requests</td><td>Local config file, not transmitted elsewhere</td></tr>
+          <tr><td>TikTok / Meta / Google (YouTube) access tokens</td><td>Authenticate publish requests</td><td>Local config file, not transmitted elsewhere</td></tr>
           <tr><td>Post captions &amp; schedule times</td><td>Scheduling and publishing</td><td>Local machine; Metricool (scheduling) for TikTok</td></tr>
           <tr><td>Video files (temporary)</td><td>Public URL so TikTok/Instagram can fetch the file to publish</td><td>Metricool's storage, briefly, during publish</td></tr>
         </tbody>
@@ -170,6 +170,7 @@
     <p>Publishing a clip can involve, depending on the platform:</p>
     <ul>
       <li><b>Metricool</b> — schedules and hosts video files briefly for TikTok delivery.</li>
+      <li><b>YouTube API Services (Google)</b> — for uploading clips to YouTube Shorts the app uses the YouTube Data API (<code>youtube.upload</code> scope only). By using this app with YouTube you are bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>; Google&rsquo;s handling of data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. The app only uploads videos; it does not read, list or delete existing videos and does not access viewer data. Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
       <li><b>ntfy.sh</b> — sends the operator a push notification when a clip goes live. Receives no data beyond a notification topic and message text.</li>
     </ul>
   </section>
