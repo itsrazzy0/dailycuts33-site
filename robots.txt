@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://itsrazzy0.github.io/dailycuts33-site/sitemap.xml

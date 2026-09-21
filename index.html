@@ -3,86 +3,70 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>dailycuts33 automation</title>
+<title>dailycuts33 – daily short-form video highlights</title>
+<meta name="description" content="dailycuts33 publishes daily short-form highlight clips on TikTok and Instagram, cut from long-form video.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="dailycuts33">
+<meta property="og:title" content="dailycuts33 – daily short-form video highlights">
+<meta property="og:description" content="dailycuts33 publishes daily short-form highlight clips on TikTok and Instagram, cut from long-form video.">
+<meta property="og:image" content="https://itsrazzy0.github.io/dailycuts33-site/assets/icon-512.png">
+<meta property="og:url" content="https://itsrazzy0.github.io/dailycuts33-site/">
+<meta name="theme-color" content="#3454D1">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --bg:#F7F8FA; --surface:#FFFFFF; --text:#1B1F27; --text-muted:#5B6472;
-    --border:#E3E6EC; --accent:#3454D1; --accent-soft:#EEF1FC;
-  }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --bg:#0F1115; --surface:#171A21; --text:#E7E9ED; --text-muted:#9AA3B2;
-      --border:#262B35; --accent:#6C8CFF; --accent-soft:#1B2233;
-    }
-  }
-  :root[data-theme="dark"]{
-    --bg:#0F1115; --surface:#171A21; --text:#E7E9ED; --text-muted:#9AA3B2;
-    --border:#262B35; --accent:#6C8CFF; --accent-soft:#1B2233;
-  }
-  *{box-sizing:border-box;}
-  body{
-    background:var(--bg); color:var(--text); margin:0;
-    font-family:"IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
-    line-height:1.65; font-size:16px;
-    display:flex; justify-content:center;
-    padding:64px 24px 96px;
-  }
-  main{max-width:680px; width:100%;}
-  .eyebrow{
-    font-family:"IBM Plex Mono", ui-monospace, monospace;
-    font-size:12.5px; letter-spacing:0.08em; text-transform:uppercase;
-    color:var(--accent); margin:0 0 10px;
-  }
-  h1{
-    font-family:"Fraunces", Georgia, serif;
-    font-weight:600; font-optical-sizing:auto;
-    font-size:clamp(28px, 5vw, 38px); line-height:1.15;
-    margin:0 0 20px; text-wrap:balance;
-  }
-  p{color:var(--text); font-size:16px; max-width:60ch; margin:0 0 16px;}
-  .card{
-    background:var(--surface); border:1px solid var(--border);
-    border-radius:10px; padding:20px 22px; margin-top:24px;
-  }
-  .card dl{display:grid; grid-template-columns:auto 1fr; gap:10px 16px; margin:0;}
-  .card dt{
-    font-family:"IBM Plex Mono", ui-monospace, monospace;
-    font-size:13px; color:var(--text-muted);
-  }
-  .card dd{margin:0; font-size:14.5px;}
-  .card dd a{color:var(--accent);}
-  code{
-    font-family:"IBM Plex Mono", ui-monospace, monospace;
-    font-size:0.9em; background:var(--accent-soft); color:var(--accent);
-    padding:1px 5px; border-radius:3px;
-  }
-  footer{
-    margin-top:56px; padding-top:24px; border-top:1px solid var(--border);
-    font-size:13px; color:var(--text-muted);
-  }
-</style>
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
+<header class="site-header"><div class="wrap"><a class="brand" href="index.html"><img src="assets/icon-192.png" alt="dailycuts33 logo" width="36" height="36"><span>dailycuts33</span></a><nav class="site-nav" aria-label="Main"><a href="index.html" aria-current="page">Home</a><a href="how-it-works.html">How it works</a><a href="about.html">About & contact</a><a href="privacy.html">Privacy</a><a href="tos.html">Terms</a></nav></div></header>
 <main>
-  <p class="eyebrow">dailycuts33 automation</p>
-  <h1>Short-form video, clipped and scheduled automatically</h1>
-  <p>
-    A single-operator pipeline that clips long-form video into short vertical
-    highlight clips and publishes them to <code>@dailycuts33</code> on TikTok
-    and Instagram, using the official TikTok Content Posting API and Meta
-    Graph API.
-  </p>
-  <div class="card">
-    <dl>
-      <dt>Account</dt><dd><a href="https://www.tiktok.com/@dailycuts33">tiktok.com/@dailycuts33</a></dd>
-      <dt>Contact</dt><dd><a href="mailto:itsrazzy0@gmail.com">itsrazzy0@gmail.com</a></dd>
-      <dt>Legal</dt><dd><a href="tos.html">Terms of Service</a> · <a href="privacy.html">Privacy Policy</a></dd>
-    </dl>
-  </div>
-  <footer>dailycuts33 automation — internal tooling, documented for platform API review.</footer>
+<div class="wrap">
+  <section class="hero"><div class="hero-grid">
+    <div>
+      <p class="eyebrow">Short-form video &middot; every day</p>
+      <h1>The best moments of long videos, cut into clips you actually finish.</h1>
+      <p class="lead">dailycuts33 turns long-form video into vertical highlight clips and publishes them
+      daily on TikTok and Instagram &mdash; captioned, scored with music and ready to watch in seconds.</p>
+      <a class="btn" href="https://www.tiktok.com/@dailycuts33">Watch on TikTok</a>
+      <a class="btn secondary" href="how-it-works.html">How it works</a>
+    </div>
+    <img class="hero-icon" src="assets/icon-512.png" alt="dailycuts33 app icon" width="200" height="200">
+  </div></section>
+
+  <section class="block">
+    <h2>What we publish</h2>
+    <p>Every clip is a self-contained moment: a hook in the first second, one idea, and a clear end.
+    Formats are vertical 9:16, usually 20&ndash;60 seconds.</p>
+    <div class="grid">
+      <div class="card"><h3>Highlight clips</h3><p>The strongest 20&ndash;60 seconds of longer videos, picked for pace and payoff rather than length.</p></div>
+      <div class="card"><h3>Captioned by default</h3><p>Large on-screen text keeps clips understandable with the sound off, positioned clear of platform buttons.</p></div>
+      <div class="card"><h3>App &amp; brand spots</h3><p>Short promotional cuts for apps and brands, clearly labelled as ads where required (#ad).</p></div>
+      <div class="card"><h3>Daily cadence</h3><p>New clips on a steady schedule &mdash; one to two per day per platform, never bursts of duplicates.</p></div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Where to find us</h2>
+    <div class="table-wrap"><table>
+      <tr><th>Platform</th><th>Account</th><th>Language</th></tr>
+      <tr><td>TikTok</td><td><a href="https://www.tiktok.com/@dailycuts33">@dailycuts33</a></td><td>German</td></tr>
+      <tr><td>Instagram</td><td>@dailycuts33</td><td>German</td></tr>
+    </table></div>
+  </section>
+
+  <section class="block">
+    <h2>Built on official platform APIs</h2>
+    <p>Publishing runs through the <b>TikTok Content Posting API</b> and the <b>Instagram Graph API</b>
+    with the account owner&rsquo;s explicit authorisation &mdash; no scraping, no password sharing, no fake engagement.
+    Details on <a href="how-it-works.html">How it works</a>; what data is touched is in the
+    <a href="privacy.html">Privacy Policy</a>.</p>
+  </section>
+</div>
 </main>
+<footer class="site-footer"><div class="wrap"><a class="brand" href="index.html"><img src="assets/icon-192.png" alt="" width="26" height="26"><span>dailycuts33</span></a><nav aria-label="Footer"><a href="how-it-works.html">How it works</a><a href="about.html">About &amp; contact</a><a href="privacy.html">Privacy Policy</a><a href="tos.html">Terms of Service</a></nav><span>&copy; 2026 dailycuts33 &middot; Rafael Neufeld</span></div></footer>
 </body>
 </html>

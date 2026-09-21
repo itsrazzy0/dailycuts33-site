@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How it works – dailycuts33</title>
+<meta name="description" content="From long video to published Short: the dailycuts33 clipping and publishing workflow, and how it uses the TikTok Content Posting API.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="dailycuts33">
+<meta property="og:title" content="How it works – dailycuts33">
+<meta property="og:description" content="From long video to published Short: the dailycuts33 clipping and publishing workflow, and how it uses the TikTok Content Posting API.">
+<meta property="og:image" content="https://itsrazzy0.github.io/dailycuts33-site/assets/icon-512.png">
+<meta property="og:url" content="https://itsrazzy0.github.io/dailycuts33-site/how-it-works.html">
+<meta name="theme-color" content="#3454D1">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="site-header"><div class="wrap"><a class="brand" href="index.html"><img src="assets/icon-192.png" alt="dailycuts33 logo" width="36" height="36"><span>dailycuts33</span></a><nav class="site-nav" aria-label="Main"><a href="index.html">Home</a><a href="how-it-works.html" aria-current="page">How it works</a><a href="about.html">About & contact</a><a href="privacy.html">Privacy</a><a href="tos.html">Terms</a></nav></div></header>
+<main>
+<div class="wrap">
+  <section class="hero">
+    <p class="eyebrow">Workflow</p>
+    <h1>From long video to published clip in five steps.</h1>
+    <p class="lead">dailycuts33 combines automated tooling with the editor&rsquo;s review. This page explains
+    each step and exactly how TikTok and Instagram are connected.</p>
+  </section>
+
+  <section class="block">
+    <h2>The pipeline</h2>
+    <ol class="steps">
+      <li><h3>Source</h3><p>Long-form videos we are permitted to use (own material and campaign material supplied for clipping) are added to a local library.</p></li>
+      <li><h3>Transcribe</h3><p>Speech is transcribed on the operator&rsquo;s own computer with an open-source speech model, so timestamps are known for every sentence.</p></li>
+      <li><h3>Find the highlight</h3><p>A locally-run language model reads the transcript and proposes the strongest self-contained segments, each with a title and caption.</p></li>
+      <li><h3>Edit</h3><p>The segment is cut, reframed to vertical 9:16, captioned, and mixed with licensed or royalty-free music and sound effects.</p></li>
+      <li><h3>Publish</h3><p>Finished clips are scheduled and posted to TikTok and Instagram through their official APIs, with a caption and hashtags. A push notification tells the editor when a clip goes live.</p></li>
+    </ol>
+  </section>
+
+  <section class="block">
+    <h2>TikTok integration</h2>
+    <p>The dailycuts33 app connects to TikTok in exactly two ways. Both require the account owner to sign in on
+    TikTok and approve the request.</p>
+    <div class="table-wrap"><table>
+      <tr><th>TikTok product / scope</th><th>What we use it for</th></tr>
+      <tr><td><b>Login Kit</b> &middot; <code>user.info.basic</code></td><td>The account owner authorises the app once. We read only the account&rsquo;s open ID and display name to confirm which account is connected.</td></tr>
+      <tr><td><b>Content Posting API</b> &middot; <code>video.publish</code></td><td>Direct Post of the finished clip to the connected account, with the caption, hashtags and privacy setting chosen by the account owner.</td></tr>
+    </table></div>
+    <div class="grid">
+      <div class="card"><h3>Owner stays in control</h3><p>Access can be revoked at any time in TikTok under Settings &rarr; Security &amp; permissions &rarr; Apps, which immediately ends all access.</p></div>
+      <div class="card"><h3>Only our own account</h3><p>The app posts to accounts operated by dailycuts33. It has no sign-up for third parties and never posts on behalf of anyone else.</p></div>
+      <div class="card"><h3>No data resale</h3><p>Tokens are stored locally and are never shared or sold. See the <a href="privacy.html">Privacy Policy</a>.</p></div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Instagram integration</h2>
+    <p>Reels are published with the Instagram Graph API using an Instagram professional account that is linked
+    to a Facebook Page. The account owner grants the publishing permission once; the same revocation options apply.</p>
+  </section>
+
+  <section class="block">
+    <h2>Quality rules we follow</h2>
+    <div class="grid">
+      <div class="card"><h3>Original edits</h3><p>Every clip is re-edited &mdash; different cut points, captions and music &mdash; instead of re-uploading someone else&rsquo;s video unchanged.</p></div>
+      <div class="card"><h3>Ads are labelled</h3><p>Promotional content carries #ad and the brand tags required by the platforms and campaign partners.</p></div>
+      <div class="card"><h3>No spam</h3><p>No duplicate posts in the same minute, no bulk following, no automated likes or comments.</p></div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Frequently asked</h2>
+    <details><summary>Do I need an account to use the site?</summary><p>No. The site is informational; there is nothing to sign up for. The clips are on TikTok and Instagram.</p></details>
+    <details><summary>Is my data collected when I watch the clips?</summary><p>No. We only receive the aggregate statistics TikTok and Instagram show every creator. We do not collect data about viewers or commenters.</p></details>
+    <details><summary>Can I request a clip to be removed?</summary><p>Yes. Email <a href="mailto:itsrazzy0@gmail.com">itsrazzy0@gmail.com</a> with the link and we take it down promptly.</p></details>
+  </section>
+</div>
+</main>
+<footer class="site-footer"><div class="wrap"><a class="brand" href="index.html"><img src="assets/icon-192.png" alt="" width="26" height="26"><span>dailycuts33</span></a><nav aria-label="Footer"><a href="how-it-works.html">How it works</a><a href="about.html">About &amp; contact</a><a href="privacy.html">Privacy Policy</a><a href="tos.html">Terms of Service</a></nav><span>&copy; 2026 dailycuts33 &middot; Rafael Neufeld</span></div></footer>
+</body>
+</html>

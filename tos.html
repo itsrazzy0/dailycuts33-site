@@ -7,6 +7,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/site.css">
 <style>
   :root{
     --bg:#F7F8FA; --surface:#FFFFFF; --text:#1B1F27; --text-muted:#5B6472;
@@ -90,12 +95,16 @@
     margin-top:56px; padding-top:24px; border-top:1px solid var(--border);
     font-size:13px; color:var(--text-muted);
   }
+  body{display:block; padding:0;}
+  main{max-width:680px; width:auto; margin:0 auto; padding:48px 24px 40px;}
+  .site-header .wrap, .site-footer .wrap{max-width:920px;}
 </style>
 </head>
 <body>
+<header class="site-header"><div class="wrap"><a class="brand" href="index.html"><img src="assets/icon-192.png" alt="dailycuts33 logo" width="36" height="36"><span>dailycuts33</span></a><nav class="site-nav" aria-label="Main"><a href="index.html">Home</a><a href="how-it-works.html">How it works</a><a href="about.html">About & contact</a><a href="privacy.html">Privacy</a><a href="tos.html" aria-current="page">Terms</a></nav></div></header>
 <main>
   <div class="doc-header">
-    <p class="eyebrow"><a href="index.html">dailycuts33 automation</a> · Legal</p>
+    <p class="eyebrow"><a href="index.html">dailycuts33</a> · Legal</p>
     <h1>Terms of Service</h1>
     <div class="meta">
       <span>Effective <b>September 12, 2026</b></span>
@@ -164,8 +173,7 @@
       <dt>Related</dt><dd><a href="privacy.html">Privacy Policy</a></dd>
     </dl>
   </div>
-
-  <footer>dailycuts33 automation — internal tooling, documented for platform API review.</footer>
 </main>
+<footer class="site-footer"><div class="wrap"><a class="brand" href="index.html"><img src="assets/icon-192.png" alt="" width="26" height="26"><span>dailycuts33</span></a><nav aria-label="Footer"><a href="how-it-works.html">How it works</a><a href="about.html">About &amp; contact</a><a href="privacy.html">Privacy Policy</a><a href="tos.html">Terms of Service</a></nav><span>&copy; 2026 dailycuts33 &middot; Rafael Neufeld</span></div></footer>
 </body>
 </html>
