@@ -117,7 +117,9 @@
     These terms cover the <b>dailycuts33 automation</b> system: a single-operator
     tool that clips long-form video into short vertical clips and publishes them
     to the TikTok and Instagram accounts of <code>@dailycuts33</code>, using the
-    official TikTok Content Posting API and Meta Graph API.
+    official TikTok Content Posting API and Meta Graph API. The same pipeline is
+    also used by the operator to publish YouTube Shorts on other channels they
+    own, via the YouTube Data API.
   </p>
 
   <section>
@@ -135,7 +137,7 @@
     <ul>
       <li>Splits source video into short clips using local transcription and a local language model.</li>
       <li>Renders each clip with burned-in captions, background music, and a vertical crop.</li>
-      <li>Publishes finished clips to <code>@dailycuts33</code> on TikTok and Instagram on a fixed daily schedule.</li>
+      <li>Publishes finished clips to <code>@dailycuts33</code> on TikTok and Instagram, and to other channels the operator owns on YouTube Shorts, on a fixed daily schedule.</li>
     </ul>
     <p>All processing runs on the operator's own machine. No clip is published without the pipeline having been configured by the operator in advance.</p>
   </section>
@@ -143,9 +145,10 @@
   <section>
     <div class="sec-head"><span class="sec-num">03</span><h2>Platform terms</h2></div>
     <p>
-      Publishing is bound by the TikTok Developer Terms of Service and the
-      Meta Platform Terms in addition to these terms. If any conflict arises,
-      the platform's own terms take precedence for use of that platform's API.
+      Publishing is bound by the TikTok Developer Terms of Service, the
+      Meta Platform Terms, and the YouTube Terms of Service / API Services
+      Terms in addition to these terms. If any conflict arises, the platform's
+      own terms take precedence for use of that platform's API.
     </p>
   </section>
 
